@@ -1,0 +1,97 @@
+html {
+  font-family: calibri, serif;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+body {
+  padding-top: 3.00em;
+  padding-bottom: 4.00em;
+  padding-right: 1.33em;
+  padding-left: 1.33em;
+  background-color: rgb(255,105,10);
+}
+
+header {
+  background-color: rgb(255,205,200);
+  color:black;
+  text-align: center;
+  border: 3.00px solid black;
+}
+
+h1 {
+  font-size: 2.00em;
+  color: rgb(255,105,10);
+  text-align: center;
+  line-height: 0.05em;
+  padding-top: 0.05em;
+  padding-bottom: 0.05em;
+  padding-left: 0.50em;
+}
+
+h2 {
+  font-size: 1.85em;
+  color: rgb(82,0,28);
+  line-height: 0.10em;
+  padding-top: 0.25em;
+  padding-bottom: 0.05em;
+}
+
+
+
+ul {
+  font-size: 1.00em;
+  list-style-type: circle;
+  line-height: 1.00em;
+  padding-top: 0.20em;
+  padding-bottom: 0.40em;
+}
+
+ul li {
+  font-size: 1.00em;
+  list-style-type: lower-roman;
+  line-height: 1.00em;
+  color: rgb(82, 0, 28);
+}
+
+li {
+  font-size: 1.00em;
+  list-style-type: lower-roman;
+  padding-bottom: 0.20em;
+}
+
+
+img {
+  display: block;
+  border: 6.00px solid #999;
+  background-color: rgb(112,128,144);
+  color: gray;
+  margin-left: auto;
+  margin-right: auto
+}
+
+video {
+  border: 3.75px solid #999;
+  background-color: rgb(255,165,0);
+  padding: 2.50px;
+  padding-top: 3.50em;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0.04em;
+  padding: 0.04em;
+  overflow: hidden;
+  background-color:  rgb(112,128,144);
+  text-align: center;
+}
+
+#navigation li {
+  font-size: 1.60em;
+  padding-right: 0.50em;
+  padding-left: 0.50em;
+  list-style-type: none;
+  display: inline;
+}
