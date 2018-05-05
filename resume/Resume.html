@@ -94,6 +94,23 @@
       </ul>
     </section>
 
+  <section id="maps">
+    function myMap() {
+      var myCenter = new google.maps.LatLng(41.8349,-87.6270);
+      var mapCanvas = document.getElementById("map");
+      var mapOptions = {center: myCenter, zoom: 15};
+      var map = new google.maps.Map(mapCanvas, mapOptions);
+      var marker = new google.maps.Marker({position:myCenter});
+      marker.setMap(map);
+    }
+
+    function goto(location)
+    	{
+          map.panTo(location);
+          map.setZoom(15);
+        }
+</section>
+
     <footer>
       <p>Created by Andrew Choragwicki</p>
     </footer>
